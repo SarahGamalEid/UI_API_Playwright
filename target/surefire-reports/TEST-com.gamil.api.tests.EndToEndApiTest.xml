@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.gamil.api.tests.EndToEndApiTest" time="13.686" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sarahgamal/Desktop/Assignment/target/test-classes:/Users/sarahgamal/Desktop/Assignment/target/classes:/Users/sarahgamal/.m2/repository/com/microsoft/playwright/playwright/1.49.0/playwright-1.49.0.jar:/Users/sarahgamal/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/sarahgamal/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/sarahgamal/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/sarahgamal/.m2/repository/com/microsoft/playwright/driver/1.49.0/driver-1.49.0.jar:/Users/sarahgamal/.m2/repository/com/microsoft/playwright/driver-bundle/1.49.0/driver-bundle-1.49.0.jar:/Users/sarahgamal/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/sarahgamal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sarahgamal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.2/jackson-datatype-jsr310-2.18.2.jar:/Users/sarahgamal/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/sarahgamal/.m2/repository/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar:/Users/sarahgamal/.m2/repository/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EG"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sarahgamal/Desktop/Assignment/target/surefire/surefirebooter-20261108194959628_3.jar /Users/sarahgamal/Desktop/Assignment/target/surefire 2026-11-08T19-49-59_565-jvmRun1 surefire-20261108194959628_1tmp surefire_0-20261108194959628_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="EndToEndApiTest"/>
+    <property name="surefire.test.class.path" value="/Users/sarahgamal/Desktop/Assignment/target/test-classes:/Users/sarahgamal/Desktop/Assignment/target/classes:/Users/sarahgamal/.m2/repository/com/microsoft/playwright/playwright/1.49.0/playwright-1.49.0.jar:/Users/sarahgamal/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/sarahgamal/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/sarahgamal/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/sarahgamal/.m2/repository/com/microsoft/playwright/driver/1.49.0/driver-1.49.0.jar:/Users/sarahgamal/.m2/repository/com/microsoft/playwright/driver-bundle/1.49.0/driver-bundle-1.49.0.jar:/Users/sarahgamal/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/sarahgamal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sarahgamal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/sarahgamal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.2/jackson-datatype-jsr310-2.18.2.jar:/Users/sarahgamal/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/sarahgamal/.m2/repository/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar:/Users/sarahgamal/.m2/repository/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sarahgamal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sarahgamal/Desktop/Assignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/sarahgamal/Desktop/Assignment/target/surefire/surefirebooter-20261108194959628_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="sarahgamal"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sarahgamal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7d/s1fr780130d1j8njvqjxgvlh0000gn/T/"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="/Users/sarahgamal/Desktop/Assignment"/>
+    <property name="PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD" value="1"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sarahgamal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testUserFullLifecycleE2E[Sarah Gamal, Lead QA Automation Engineer, Senior Principal QA](1)" classname="com.gamil.api.tests.EndToEndApiTest" time="1.841">
+    <system-out><![CDATA[Step 1 SUCCESS - User Created: UserResponse{id='958', name='Sarah Gamal', job='Lead QA Automation Engineer', createdAt='2026-11-08T17:50:03.557Z', updatedAt='null'}
+Step 2 SUCCESS - Retrieved users list
+Step 3 SUCCESS - User Updated: UserResponse{id='null', name='Sarah Gamal', job='Senior Principal QA', createdAt='null', updatedAt='2026-11-08T17:50:04.269Z'}
+Step 4 SUCCESS - User 958 Deleted successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testUserFullLifecycleE2E[John Doe, Fullstack Developer, Tech Lead](2)" classname="com.gamil.api.tests.EndToEndApiTest" time="1.525">
+    <system-out><![CDATA[Step 1 SUCCESS - User Created: UserResponse{id='929', name='John Doe', job='Fullstack Developer', createdAt='2026-11-08T17:50:05.032Z', updatedAt='null'}
+Step 2 SUCCESS - Retrieved users list
+Step 3 SUCCESS - User Updated: UserResponse{id='null', name='John Doe', job='Tech Lead', createdAt='null', updatedAt='2026-11-08T17:50:05.853Z'}
+Step 4 SUCCESS - User 929 Deleted successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testUserFullLifecycleE2E[Jane Smith, DevOps Specialist, Cloud Architect](3)" classname="com.gamil.api.tests.EndToEndApiTest" time="1.381">
+    <system-out><![CDATA[Step 1 SUCCESS - User Created: UserResponse{id='31', name='Jane Smith', job='DevOps Specialist', createdAt='2026-11-08T17:50:06.480Z', updatedAt='null'}
+Step 2 SUCCESS - Retrieved users list
+Step 3 SUCCESS - User Updated: UserResponse{id='null', name='Jane Smith', job='Cloud Architect', createdAt='null', updatedAt='2026-11-08T17:50:07.271Z'}
+Step 4 SUCCESS - User 31 Deleted successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testUserFullLifecycleE2E[Ahmed Hassan, SDET, Staff QA Architect](4)" classname="com.gamil.api.tests.EndToEndApiTest" time="0.991">
+    <system-out><![CDATA[Step 1 SUCCESS - User Created: UserResponse{id='774', name='Ahmed Hassan', job='SDET', createdAt='2026-11-08T17:50:07.837Z', updatedAt='null'}
+Step 2 SUCCESS - Retrieved users list
+Step 3 SUCCESS - User Updated: UserResponse{id='null', name='Ahmed Hassan', job='Staff QA Architect', createdAt='null', updatedAt='2026-11-08T17:50:08.372Z'}
+Step 4 SUCCESS - User 774 Deleted successfully
+]]></system-out>
+  </testcase>
+</testsuite>

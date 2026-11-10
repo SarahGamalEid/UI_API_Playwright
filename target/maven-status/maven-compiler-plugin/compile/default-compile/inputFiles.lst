@@ -1,0 +1,15 @@
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/api/api/LoginApi.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/api/api/UserApi.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/api/base/BaseApiTest.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/api/models/ItemModel.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/api/models/UserRequest.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/api/models/UserResponse.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/base/BaseUiTest.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/config/ConfigReader.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/factory/PlaywrightFactory.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/models/UserData.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/pages/AddUserPage.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/pages/AdminPage.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/pages/BasePage.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/pages/DashboardPage.java
+/Users/sarahgamal/Desktop/Assignment/src/main/java/com/gamil/ui/pages/LoginPage.java

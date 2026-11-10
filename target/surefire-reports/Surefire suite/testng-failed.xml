@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.gamil.api.tests.DataDrivenApiTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCreateUserFromJsonData" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gamil.api.tests.DataDrivenApiTest -->
+      <class name="com.gamil.ui.tests.OrangeHrmUserManagementTest">
+        <methods>
+          <include name="testAddAndSearchNewUser"/>
+          <include name="setUpUi"/>
+          <include name="tearDownUi"/>
+        </methods>
+      </class> <!-- com.gamil.ui.tests.OrangeHrmUserManagementTest -->
+      <class name="com.gamil.api.tests.EndToEndApiTest">
+        <methods>
+          <include name="testUserFullLifecycleE2E" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gamil.api.tests.EndToEndApiTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

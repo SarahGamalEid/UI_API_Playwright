@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-08T20:03:13 EET" name="Surefire suite" finished-at="2026-11-08T20:03:51 EET" duration-ms="38166">
+    <groups>
+    </groups>
+    <test started-at="2026-11-08T20:03:13 EET" name="Surefire test" finished-at="2026-11-08T20:03:51 EET" duration-ms="38166">
+      <class name="com.gamil.api.tests.FirstApiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gamil.api.tests.FirstApiTest@1a942c18]" started-at="2026-11-08T20:03:46 EET" name="setUp" finished-at="2026-11-08T20:03:46 EET" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getItemsReturnsAList()[pri:0, instance:com.gamil.api.tests.FirstApiTest@1a942c18]" started-at="2026-11-08T20:03:46 EET" name="getItemsReturnsAList" finished-at="2026-11-08T20:03:48 EET" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsReturnsAList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gamil.api.tests.FirstApiTest@1a942c18]" started-at="2026-11-08T20:03:48 EET" name="tearDown" finished-at="2026-11-08T20:03:48 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gamil.api.tests.FirstApiTest -->
+      <class name="com.gamil.api.tests.DataDrivenApiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gamil.api.tests.DataDrivenApiTest@7aaca91a]" started-at="2026-11-08T20:03:48 EET" name="setUp" finished-at="2026-11-08T20:03:48 EET" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUserFromJsonData(com.gamil.api.models.UserRequest)[pri:0, instance:com.gamil.api.tests.DataDrivenApiTest@7aaca91a]" started-at="2026-11-08T20:03:48 EET" name="testCreateUserFromJsonData" description="Data-driven test to create users from JSON source" data-provider="jsonUserDataProvider" finished-at="2026-11-08T20:03:49 EET" duration-ms="853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserRequest{name='Sarah Gamal', job='Lead Automation Architect', email='sarah.gamal@example.com'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserFromJsonData -->
+        <test-method signature="testCreateUserFromJsonData(com.gamil.api.models.UserRequest)[pri:0, instance:com.gamil.api.tests.DataDrivenApiTest@7aaca91a]" started-at="2026-11-08T20:03:49 EET" name="testCreateUserFromJsonData" description="Data-driven test to create users from JSON source" data-provider="jsonUserDataProvider" finished-at="2026-11-08T20:03:49 EET" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserRequest{name='Michael Brown', job='Performance Engineer', email='michael.brown@example.com'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserFromJsonData -->
+        <test-method signature="testCreateUserFromJsonData(com.gamil.api.models.UserRequest)[pri:0, instance:com.gamil.api.tests.DataDrivenApiTest@7aaca91a]" started-at="2026-11-08T20:03:49 EET" name="testCreateUserFromJsonData" description="Data-driven test to create users from JSON source" data-provider="jsonUserDataProvider" finished-at="2026-11-08T20:03:50 EET" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserRequest{name='Emma Watson', job='Security Tester', email='emma.watson@example.com'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserFromJsonData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gamil.api.tests.DataDrivenApiTest@7aaca91a]" started-at="2026-11-08T20:03:50 EET" name="tearDown" finished-at="2026-11-08T20:03:50 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gamil.api.tests.DataDrivenApiTest -->
+      <class name="com.gamil.ui.tests.OrangeHrmUserManagementTest">
+        <test-method is-config="true" signature="setUpUi()[pri:0, instance:com.gamil.ui.tests.OrangeHrmUserManagementTest@506ae4d4]" started-at="2026-11-08T20:03:13 EET" name="setUpUi" finished-at="2026-11-08T20:03:15 EET" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpUi -->
+        <test-method signature="testAddAndSearchNewUser()[pri:0, instance:com.gamil.ui.tests.OrangeHrmUserManagementTest@506ae4d4]" started-at="2026-11-08T20:03:15 EET" name="testAddAndSearchNewUser" description="Verify Admin can successfully create and search for a new user in OrangeHRM" finished-at="2026-11-08T20:03:45 EET" duration-ms="29639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndSearchNewUser -->
+        <test-method is-config="true" signature="tearDownUi()[pri:0, instance:com.gamil.ui.tests.OrangeHrmUserManagementTest@506ae4d4]" started-at="2026-11-08T20:03:45 EET" name="tearDownUi" finished-at="2026-11-08T20:03:46 EET" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownUi -->
+      </class> <!-- com.gamil.ui.tests.OrangeHrmUserManagementTest -->
+      <class name="com.gamil.api.tests.EndToEndApiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gamil.api.tests.EndToEndApiTest@41005828]" started-at="2026-11-08T20:03:50 EET" name="setUp" finished-at="2026-11-08T20:03:50 EET" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserFullLifecycleE2E(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gamil.api.tests.EndToEndApiTest@41005828]" started-at="2026-11-08T20:03:50 EET" name="testUserFullLifecycleE2E" description="E2E Scenario: Create -&gt; Read -&gt; Update -&gt; Delete User with multiple datasets" data-provider="userDataProvider" finished-at="2026-11-08T20:03:50 EET" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarah Gamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lead QA Automation Engineer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Senior Principal QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFullLifecycleE2E -->
+        <test-method signature="testUserFullLifecycleE2E(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gamil.api.tests.EndToEndApiTest@41005828]" started-at="2026-11-08T20:03:50 EET" name="testUserFullLifecycleE2E" description="E2E Scenario: Create -&gt; Read -&gt; Update -&gt; Delete User with multiple datasets" data-provider="userDataProvider" finished-at="2026-11-08T20:03:50 EET" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fullstack Developer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tech Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFullLifecycleE2E -->
+        <test-method signature="testUserFullLifecycleE2E(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gamil.api.tests.EndToEndApiTest@41005828]" started-at="2026-11-08T20:03:50 EET" name="testUserFullLifecycleE2E" description="E2E Scenario: Create -&gt; Read -&gt; Update -&gt; Delete User with multiple datasets" data-provider="userDataProvider" finished-at="2026-11-08T20:03:51 EET" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DevOps Specialist]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cloud Architect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFullLifecycleE2E -->
+        <test-method signature="testUserFullLifecycleE2E(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gamil.api.tests.EndToEndApiTest@41005828]" started-at="2026-11-08T20:03:51 EET" name="testUserFullLifecycleE2E" description="E2E Scenario: Create -&gt; Read -&gt; Update -&gt; Delete User with multiple datasets" data-provider="userDataProvider" finished-at="2026-11-08T20:03:51 EET" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed Hassan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Staff QA Architect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFullLifecycleE2E -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gamil.api.tests.EndToEndApiTest@41005828]" started-at="2026-11-08T20:03:51 EET" name="tearDown" finished-at="2026-11-08T20:03:51 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gamil.api.tests.EndToEndApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
